@@ -1,0 +1,494 @@
+1. DEMONSTRATE E-MAIL WORKING(SENDING, RECEIVING, FORWARD)
+
+STEP 1: SENDING AN EMAIL:
+1. Open a web browser and go to Gmail’s website.
+2. Enter the email ID and password to login.
+3. Click on the 'Compose' button, usually found on the top left corner.
+4. In the "To' field, type in the email address of the recipient.
+5. If needed, add more recipients in the 'Cc' or 'Bcc' fields.
+6. Write a brief, relevant line in the 'Subject' field to indicate the topic of the email.
+7. In the main body field, type the content of the email.
+8. If there are files to send along with the email, click on the 'Attach files' icon (usually represented by a paperclip) and select the files.
+9. Review the email for any errors or omissions.
+10. Click on the 'Send' button to send the email.
+
+STEP 2: RECEIVING ON EMAIL:
+1. Once logged into the Gmail account, the 'Inbox' can be found on the left side panel.
+2. Click on 'Inbox'.
+3. New emails will be visible in the list. Click on any email to open and read it.
+4. If the email has any attachments, they can be opened or downloaded by clicking on them.
+
+STEP 3: FORWARDING ON EMAIL:
+1. Open the email intended to be forwarded by clicking on it in the 'Inbox'.
+2. At the bottom of the email, find the 'Forward' button or icon (usually denoted by an arrow) and click on it.
+3. This will open a new email window with the content of the original email in the body.
+4. In the "To' field, type in the email address of the person to whom the email is being forwarded.
+5. If needed, additional text can be added to the email before forwarding.
+
+6. Review the email.
+7. Click on the 'Send' button to forward the email.
+
+
+2. HOW TO CREATE, ORGANIZE MEETING IN ZOOM/ GOOGLEMEET.
+
+CREATING A MEETING IN ZOOM:
+1. Log into the Zoom web portal.
+2. Click on "Schedule a Meeting" in the top right corner of the homepage.
+3. Choose the meeting title, description (optional), date, and time.
+4. Select the meeting duration. Please note that the duration is only for scheduling purposes. The meeting won't end after this length of time.
+5. Select the time zone of the meeting.
+6. Set up the meeting ID and passcode for security purposes.
+7. Decide on advanced options like enabling a waiting room, allowing join before host, muting participants on entry, and automatically recording the meeting.
+8. Finally, click on the "Save" button to create the meeting.
+
+
+
+ORGANIZING A MEETING IN ZOOM:
+1. After the meeting is created, an invitation can be sent to participants.
+2. The host can click on "Copy the invitation," then paste that information into an email and send it to the participants.
+3. During the time of the meeting, the host can start the meeting by logging into their Zoom account, navigating to the "My Meetings" section, and selecting "Start" for the scheduled meeting.
+4. Participants join the meeting by clicking on the link in the email.
+
+CREATING A MEETING IN GOOGLE MEET:
+1. Go to Google Calendar and sign in.
+2. Click on the "+ Create" button on the top left side to create a new event.
+3. Add a title to the event, and set the date and time.
+4. Click on "Add guests" to add participants by entering their email addresses.
+5. Click on "Add Google Meet video conferencing." This will automatically generate a unique meeting link that can be used to join the meeting.
+6. Once all the details are filled in, click on "Save."
+7. A prompt will appear asking if the creator wants to send an invitation email to the guests. Click "Send" to send the invitation.
+
+ORGANIZING A MEETING IN GOOGLE MEET:
+1. Participants will receive an email invitation containing the meeting link.
+2. The host can start the meeting at the scheduled time by opening the event in Google Calendar and selecting the Google Meet link.
+3. They can join the meeting by clicking the link at the scheduled time.
+
+
+3. CREATE A FORM BY USING VARIOUS ATTRIBUTES OF THE INPUT TAGS(TEXT BOX,MULTILINE TEXT BOX,OPTION BUTTON, CHECK BOX)
+
+<html>
+<body>
+  <from action="/submit" method="post">
+      <label for="fname">first name:</label><br>
+      <input type="text" id="fname" name="fname"><br><br>
+
+      <label for="Description">Description:</label><br>
+      <textarea id="Description" name="description"></textarea><br><br>
+
+      <label for="gender">Gender:</label><br>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="gender">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="gender">Female</label><br>
+
+      <label for="interests">Interests:</label><br>
+      <input type="checkbox" id="sports" name="interests" value="sports">
+      <label for="sports">sports</label><br>
+      <input type="checkbox" id="music" name="interests" value="music">
+      <label for="music">music</label><br>
+
+      <input type="submit" value="submit">
+  </from>
+</body>
+</html>
+
+
+4. CREATE A SIMPLE HTML PAGE BY USING SOME OF THE BASIC TAGS (HYPERLINK,MARQUEE,IMAGE).
+
+<html>
+<head>
+  <title>Ajio shopping</title>
+</head>
+<body>
+    <h3>Welcome to the Ajio shopping info page!</h3>
+    <p>
+       <a href="https://www.ajio.com/" target="_blank">Visit Ajio india</a> for exciting deals and offers.
+    </p>
+    
+    <marquee>check out the latest deals and offers on Ajio Indian! Hurry,they won't last long!
+    </marquee>
+
+    <img src="C:\Users\Sankya\Desktop\download.png" alt="Ajio Image" width="200" height="200">
+</body>
+</html>
+
+
+5. CREATE A WEB PAGE WITH MULTIPLE TYPES OF STYLE SHEET USED IN A SINGLE PAGE.
+
+<html>
+<head>
+<link rel="stylesheet" type="test/css" herf="myex.css">
+<style>
+body
+{
+    background-color:linen;
+}
+p
+{
+color:red;
+text-align:center;
+}
+</style>
+<body>
+<h1 style="color:violet;text-align:center;"> This is inline css</h1>
+<b><p>This is internal style sheet-Ash</p></b>
+<h2>The external style sheet is applied on this heading-Ashri</h1>
+</body>
+</html>
+
+
+6. WRITE A CGI SAMPLE PROGRAM TO SEND OUTPUT BACK TO THE USER.
+
+STEP 1: INSTALL APACHE SERVER:
+1.	visit the apache lounge website (hhtps://www.apachelounge.com/download/) and download the approprite version of apache based on the systems architecture (32-bit or 64-bit).
+
+2.	Extract the downloaded file to c:
+
+3.	Open the Command Prompt with administrative rights (Right-click -> Run as administrator).
+
+4.	Navigate to the Apache bin directory by typing cd C:\Apache24\bin and pressing Enter.
+
+5.	Install Apache as a service by typing httpd.exe -k install and pressing Enter.
+
+6.	To start Apache, type httpd.exe -k start and press Enter. If Apache starts without any error messages the installation was successful. (or) click on C:\Apache24\bin\httpd.exe
+
+STEP 2: INSTALL PYTHON:
+1.	1. Visit the official Python website (https://www.python.org/downloads/windowx/) and download the latest Python installer.
+2.	Run the installer, ensure "Add Python to PATH" is checked, and follow the prompts to install Python,
+
+
+STEP 3: CONFIGURE APACHE FOR CGI:
+1.	 Open the Apache configuration file located at C:\Apache24\conf\httpd.conf in a text        editor. 
+2.	Uncomment the following lines (remove the # at the start of the line):
+     LoadModule cgi_module modules/mod_cgi.so
+     AddHandler cgi-script .cgi py
+3.	In the same file, find the <Directory> section and change the Options line to:
+     Options Indexes FollowSymLinks ExecCGI
+4.	And add the following line:
+     AddHandler cgi-script .cgi .py
+5.	Change the ScriptAlias as shown below:
+     ScriptAlias /cgi-bin/ "C:/Apache24/cgi-bin/"
+6.	Save and close the file.
+7.	Restart Apache by opening the Command Prompt as administrator, navigating to   C:\Apache24\bin and typing httpd.exe -k restart.
+
+
+STEP 4: CREATE AND RUN THE CGI SCRIPT:
+1.	In the C:\apache\Apache24\cgi-bin directory, create a new file called hello.py.
+2.	Write the following Python code into the file:
+3.	Save and close the file.
+4.	Open web browser and navigate to http://location/cgi-bin/hello.py. If everything has been set up correctly, “Hello BCA students, welcome to CGI!” should be displayed in the browser.
+
+
+7. CREATE TIME TABLE USING TABLE TAG.
+
+<html>
+<head>
+<title>Time Table</title>
+</head>
+<style>
+body
+{
+background-color:yellow;
+}
+</style>
+<h1  style = "text-align:center;">WEEKLY CLASS SCHEDULE</h1>
+<table border ="10"; table align ="center"; table bgcolor="pink"; table cellpadding="20";table cellspacing="5";>
+<tr>
+<th>Day</th>
+<th>9:00-10:00</th>
+<th>10:00-11:00</th>
+<th>11:00-12:00</th>
+</tr>
+<tr>
+<td>MONDAY</td>
+<td>Internet technologies</td>
+<td>Software engineering</td>
+<td>The Design and Analysis of Algorithms</td>
+</tr>
+<tr>
+<td>TUESDAY</td>
+<td>Internet technologies</td>
+<td>Software engineering</td>
+<td>The Design and Analysis of Algorithms</td>
+</tr>
+<tr>
+<td>WEDNESDAY</td>
+<td>Internet technologies</td>
+<td>Software engineering</td>
+<td>The Design and Analysis of Algorithms</td>
+</tr>
+<tr>
+<tr>
+<td>THRUSDAY</td>
+<td>Internet technologies</td>
+<td>Software engineering</td>
+<td>The Design and Analysis of Algorithms</td>
+</tr>
+<tr>
+<td>FRIDAY</td>
+<td>Internet technologies</td>
+<td>Software engineering</td>
+<td>The Design and Analysis of Algorithms</td>
+</tr>
+</table>
+</body>
+</html>
+
+
+
+8. CREATION OF FRAMES IN BROWSER WINDOW USING HTML.
+
+STEP 1: CREATE THE MENU.HTML FILE:
+CODE:    menu.html
+<html>
+<style>
+body
+{
+background-color:yellow;
+}
+</style>
+<h1>Menu</h1>
+<ul>
+<li>panner tikka</li>
+<li>Gobi chilly</li>
+<li>Mushroom dry</li>
+<li>Babycorn chilly</li>
+</body>
+</html>
+
+STEP 2: CREATE THE CONTENT.HTML FILE:
+CODE:     content.html
+<html>
+<style>
+body
+{
+background-color:pink ;
+}
+</style>
+<h1>content</h2>
+<p>Welcome to our south indian food restaurant! We serve a variety of dishes.</p> 
+</body>
+</html>
+
+STEP 3: CREATE THE INFO.HTML FILE:
+CODE:     info.html
+<html>
+<style>
+body
+{
+background-color:brown ;
+}
+</style>
+<h1>INFO</h2>
+<p>We located at jp nagar 1st cross and open from 1:00pm to 11:00pm everyday.</p>
+</body>
+</html>
+
+STEP 4: CREATE THE MAIN FRAMESET HTML FILE:
+CODE:     main.html
+<html>
+<frameset rows ="35%,30%,35%">
+<frame src="menu.html"name="menu_frame">
+<frame src="content.html"name="content_frame">
+<frame src="info.html" name="info_frame">
+</frameset>
+</html>
+
+
+
+9. WRITE A JAVA SCRIPT PROGRAM TO CREATE DIALOGUE BOXES USING ALERT, CONFRIM AND PROMPT METHODS.
+
+<html>
+<head>
+<title>Newsletter Subscription</title>
+<script type="text/javascript">
+function subscribeNewsletter() 
+{
+alert("Welcome to our website! We offer a weekly newsletter");
+var subscribe=confirm("Would you like to subscribe to our newsletter?");
+if(subscribe) 
+{
+var email=prompt("Please enter your email address for the subscription:","");
+if(email) 
+{
+alert("Thanks.You will receive a confirmation email at"+email+".");
+} else
+{
+alert("You did not provide an email address.No subscription has been made.");
+}
+} else
+{
+alert("No problem, you can always subscribe later if you change your mind.");
+}
+}
+</script>
+</head>
+<body onload="subscribeNewsletter()">
+<h1>Welcome to our Website!</h1>
+</body>
+</html>
+
+
+10. WRITE A JAVA SCRIPT PROGRAM ON FORM VALIDATIONS.
+
+<html> 
+<head>
+<title>Registration Form</title>
+<script type="text/javascript">
+function validateForm() 
+{
+var username=document.forms["registration"]["username"].value;
+var email=document.forms["registration"]["email"].value;
+var password=document.forms["registration"]["password"].value;
+if(username==""|| email==""|| password=="")
+{
+alert("All fields must be filled out.");
+return false;
+}
+var re=/\S+@\S+\.\S+/; 
+if (!re.test(email)) 
+{
+alert("Invalid email format.");
+return false;
+}
+if (password.length < 6) 
+{
+alert("Password must be at least 6 characters long.");
+return false;
+}
+alert("Registration successful.");
+return true;
+}
+</script>
+</head>
+<body>
+<h1>Registration Form</h1>
+<form name="registration" onsubmit="return validateForm()">
+Username: <input type="text" name="username"><br><br> 
+Email <input type="text" name="email"><br><br> 
+Password: <input type="password" name="password"><br><br>
+<input type="submit" value="Register">
+</form>
+</body>
+</html>
+
+
+<html>
+<head>
+<title>Arithmetic Operations</title>
+<script type="text/javascript">
+function perform Operations() 
+{
+var num1 parseFloat(document.getElementById("number1").value);
+var num2 parseFloat(document.getElementById("number2").value);
+document.getElementById("addition").innerHTML "Addition: " + (num1 + num2);
+document.getElementById("subtraction").innerHTML "Subtraction: + (num1 num2);
+document.getElementById("multiplication").innerHTML = "Multiplication:" + (num1 num2);
+document.getElementById("division").innerHTML "Division:" + (num1 / num2);
+}
+</script>
+</head>
+<body>
+<h1>Arithmetic Operations</h1>
+<form>
+Number 1: <input type="number" id="number1"><br><br>
+Number 2: <input type="number" id="number2"><br><br>
+<input type="button" value="Calculate" onclick="performOperations()">
+</form>
+<p id="addition"></p>
+<p id="subtraction"></p>
+<p id="multiplication"></p>
+<p id="division"></p>
+</body>
+</html>
+
+
+12. CREATE A WEB SITE OF OUR COLLEGE.
+
+1. CREATE INDEX.HTML FILE:
+CODE:     index.html
+<html>
+<head>
+<title>VET FIRST GRADE COLLEGE</title>
+<style>
+body 
+{
+font-family: Arial, sans-serif;
+}
+header 
+{
+background-color: pink;
+padding: 20px;
+text-align: center;
+}
+nav
+{
+margin: 20px 0;
+text-align: center;
+}
+nav a
+{
+margin: 0 15px
+}
+</style>
+</head>
+<body> 
+<header>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-cYg36RMCqP5B73vuFHT-QdgcAHyx4N1RUA&s" alt="VET FIRST GRADE COLLEGE" width="180",
+<h1>VET FIRST GRADE COLLEGE</h1>
+<p>18, 14th Main Road, 2nd Phase, J.P.Nagar Bengaluru 560078</p>
+</header>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About Us</a>
+<a href="courses.html"> Courses</a>
+<a href="contact.html">Contact Us</a>
+</nav>
+<main>
+<h2>WELCOME TO VET FIRST GRADE COLLEGE</h2>
+<p>we provide best education.</p>
+</main>
+</body> 
+</html>
+
+2. CREATE ON ABOUT.HTML PAGE FOR THE ABOUT US INFORMATION:
+CODE:     about.html
+<html>
+<head>
+  <title>About Us - VET FIRST GRADE COLLEGE</title>
+</head>
+<body>
+<h1>About Us</h1>
+<p>VET FIRST GRADE COLLEGE 
+(Affiliated to Bengaluru City University,Listed U/s 2f and 12B of UGC Act, NAAC Accredited)...</p>
+</body>
+</html>
+
+3. CREATE A COURSES.HTML PAGE TO LIST THE COURSES PROVIDED BY THE INFORMATION:
+CODE:    courses.html
+<HTML>
+<head>
+<title>Courses VET FIRST GRADE COLLEGE</title>
+</head>
+<body>
+<h1>Courses</h1>
+<h2>BCA</h2>
+<h2>BCom</h2>
+<h3>BBA</h3>
+</body>
+</html>
+
+
+4. CREATE A CONTACT.HTML PAGE TO PROVIDE CONTACT INFORMATION:
+CODE:    contact.html
+<html>
+<head>
+<title>Contact Us - VET FIRST GRADE COLLEGE</title>
+</head>
+<body>
+<h1>Contact Us</h1>
+<p>Address: 18, 14th MAIN Road, 2nd Phase, J.P.Nagar, Bengaluru 560078</p>
+<p>Phone: 080-26586808</p>
+<p>Website: https://vetfgc.edu.in</p>
+</body>	
+</html>
